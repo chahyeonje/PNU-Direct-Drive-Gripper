@@ -10,3 +10,6 @@ This repository contains the software implementation of **High-Speed Scooping** 
 
 ### 2.2 software
 Our software is implemented with **python3** and tested on **Ubuntu 20.04**.
+versions:
+ubuntu 20.04
+python 3.10.0
