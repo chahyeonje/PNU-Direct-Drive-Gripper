@@ -36,4 +36,6 @@ Please connect your ODrive
 You can also type help() or quit().
 
 Connected to ODrive S1 384D34783539 (firmware v0.6.7) as odrv0
+In  [1]: odrv0.vbus_voltage
+Out [1]: 23.931137084960938
 ```
