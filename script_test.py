@@ -14,6 +14,12 @@ leftFinger1 = Actuator(odrv1, 0.97, 1, 45)
 print(str(leftFinger0.encoder))
 print(str(leftFinger1.encoder))
 print(str(leftFinger0.motor_pos))
+
+odrv0.clear_errors()
+odrv1.clear_errors()
+
+odrv0.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
+odrv1.axis0.requested_state = AXIS_STATE_FULL_CALIBRATION_SEQUENCE
 # print(str(odrv0))
 # print(str(odrv1))
 
