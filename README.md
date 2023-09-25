@@ -9,7 +9,10 @@ This repository contains the software implementation of **High-Speed Scooping** 
 ### 2.1 Hardware
 
 ### 2.2 software
-Our software is implemented with **python3** and tested on **Ubuntu 20.04**.
-versions:
-ubuntu 20.04
-python 3.10.0
+Our software is implemented with **python3** and tested on **Ubuntu**.
+#### versions ####
+----
+- ubuntu : 20.04
+- Python : 3.10.11 (pyenv)
+- Odrive control untility : 0.6.7
+
