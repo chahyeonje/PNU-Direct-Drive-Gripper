@@ -27,7 +27,6 @@ sudo bash -c "curl https://cdn.odriverobotics.com/files/odrive-udev-rules.rules 
 3. To launch the main interactive ODrive tool, type 'odrivetool'. And then, type 'odrv0.vbus_voltage' to inspect the boards main supply voltage.
 ```bash
 odrivetool
-odrv0.vbus_voltage
 ```
 if the program is installed and the odrive is connected successfully, then you can see the messages.
 ```bash
