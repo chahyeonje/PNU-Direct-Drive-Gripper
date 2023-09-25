@@ -16,6 +16,9 @@ Our software is implemented with **python3** and tested on **Ubuntu**.
 - Python : 3.10.11 (pyenv)
 - Odrive control untility : 0.6.7
 #### Getting started ####
-1. First, you should install accompanying PC program for the ODrive. 
-'''bash
+1. First, you should install accompanying PC program for the ODrive.
+```bash
 pip install --upgrade odrive
+```
+
+
