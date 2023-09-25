@@ -7,14 +7,18 @@ This repository contains the software implementation of **High-Speed Scooping** 
 
 ## 2. Prerequisites
 ### 2.1 Hardware
-
-### 2.2 software
-Our software is implemented with **python3** and tested on **Ubuntu**.
-#### Versions ####
+- motor : t-motor gb54-2 (https://store.tmotor.com/goods-445-GB54-2.html)
+- motor driver : odrive s1 (https://odriverobotics.com/shop/odrive-s1)
 -----
+### 2.2 software
+Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
+
+-----
+#### Versions ####
 - ubuntu : 20.04
 - Python : 3.10.11 (pyenv)
 - Odrive control untility : 0.6.7
+-----
 #### Getting started ####
 1. First, you should install accompanying PC program for the ODrive, 'odrivetool'.
 ```bash
@@ -38,3 +42,4 @@ Connected to ODrive S1 384D34783539 (firmware v0.6.7) as odrv0
 In  [1]: odrv0.vbus_voltage
 Out [1]: 23.931137084960938
 ```
+-----
