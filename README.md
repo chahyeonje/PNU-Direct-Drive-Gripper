@@ -12,12 +12,11 @@ This repository contains the software implementation of **High-Speed Scooping** 
 ## 3. software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
 
------
 ### Versions ###
 - ubuntu : 20.04
 - Python : 3.10.11 (pyenv)
 - Odrive control untility : 0.6.7
------
+
 ### Getting started ###
 1. First, you should install accompanying PC program for the ODrive, 'odrivetool'.
 ```bash
