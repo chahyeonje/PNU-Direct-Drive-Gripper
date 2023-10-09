@@ -10,7 +10,7 @@
 - motor : t-motor gb54-2 (https://store.tmotor.com/goods-445-GB54-2.html)
 - motor driver : odrive s1 (https://odriverobotics.com/shop/odrive-s1)
 -----
-## 3. software
+## 3. Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
 
 ### Versions ###
