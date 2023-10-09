@@ -31,7 +31,7 @@ sudo bash -c "curl https://cdn.odriverobotics.com/files/odrive-udev-rules.rules 
 ```bash
 odrivetool
 ```
-if the program is installed and the odrive is connected successfully, then you can see the messages.
+&nbsp; If the program is installed and the odrive is connected successfully, then you can see the messages.
 ```bash
 ODrive control utility v0.6.7
 Please connect your ODrive
