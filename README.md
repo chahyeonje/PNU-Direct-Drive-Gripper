@@ -1,4 +1,8 @@
 # PNU-Direct-Drive-Gripper
+- Hyeonje Cha, guswp3611@gmail.com
+- Jaehoon An, dkswogns46@gmail.com
+- Inho Lee, inholee8@pusan.ac.kr
+- Jungwon Seo, junseo.kr@pusan.ac.kr
 
 ## 1. Overview
 
