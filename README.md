@@ -1,9 +1,4 @@
 # PNU-Direct-Drive-Gripper
-- Hyeonje Cha, guswp3611@gmail.com
-- Jaehoon An, dkswogns46@gmail.com
-- Inho Lee, inholee8@pusan.ac.kr
-- Jungwon Seo, junseo.kr@pusan.ac.kr
-
 ## 1. Overview
 
 ## 2. Hardeware
@@ -65,3 +60,10 @@ In  [1]: odrv0.vbus_voltage
 Out [1]: 23.931137084960938
 ```
 -----
+
+## Contributors
+- Hyeonje Cha, guswp3611@gmail.com
+- Jaehoon An, dkswogns46@gmail.com
+- Shady
+- Inho Lee, inholee8@pusan.ac.kr
+- Jungwon Seo, junseo.kr@pusan.ac.kr
