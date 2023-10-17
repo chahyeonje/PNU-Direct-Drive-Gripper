@@ -31,7 +31,7 @@
 - [Magnet holder](stl/magnet_holder.STL) X 4
 - [Motor plate](stl/motor_plate.STL) X 4
 - [Proximal link](stl/proximal_link.STL) X 4
-- The gripper is designed to be compatible with Rainbow robotics RB5. For other robot systems, it should be better that you design your own adapter plate and coupling.
+- The gripper is designed to be compatible with Rainbow robotics RB5. For other robot systems, it should be better to design your own adapter plate and coupling.
 -----
 ## 3. Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
