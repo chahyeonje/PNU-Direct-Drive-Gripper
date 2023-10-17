@@ -18,16 +18,16 @@
 - 3-phase cable
 
 #### 3D Printing ####
-- [Adapter plate](adapter_plate.STL) X 4
-- [Bearing spacer](bearing_spacer.STL) X 12
-- [Calibration arm](calibration_arm.STL) X 1
-- [Calibration stand](calibration_stand.STL) X 1
-- [Coupler](coupler.STL) X 1
-- [Couping](coupling.STL) X 1
-- [Distal link](distal_link.STL) X 2
-- [Distal tip link](distal_tip_link.STL) X 2
-- [Finger tip](finger_tip.STL) X 2
-- [Gripper shell](gripper_shell.STL) X 1
+- [Adapter plate](stl/adapter_plate.STL) X 4
+- [Bearing spacer](stl/bearing_spacer.STL) X 12
+- [Calibration arm](stl/calibration_arm.STL) X 1
+- [Calibration stand](stl/calibration_stand.STL) X 1
+- [Coupler](stl/coupler.STL) X 1
+- [Couping](stl/coupling.STL) X 1
+- [Distal link](stl/distal_link.STL) X 2
+- [Distal tip link](stl/distal_tip_link.STL) X 2
+- [Finger tip](stl/finger_tip.STL) X 2
+- [Gripper shell](stl/gripper_shell.STL) X 1
 - [Magnet holder](stl/magnet_holder.STL) X 4
 - [Motor plate](stl/motor_plate.STL) X 4
 - [Proximal link](stl/proximal_link.STL) X 4
