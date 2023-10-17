@@ -18,18 +18,18 @@
 - 3-phase cable
 
 #### 3D Printing ####
-- [Adapter plate](stl/adapter_plate.STL) X 4
+- [Adapter plate](stl/adapter_plate.stl/) X 4
 - [Bearing spacer](stl/bearing_spacer.STL) X 12
 - [Calibration arm](stl/calibration_arm.STL) X 1
 - [Calibration stand](stl/calibration_stand.STL) X 1
 - [Coupler](stl/coupler.STL) X 1
-- [Couping](stl/coupling.STL) X 1
+- [Couping](stl/coupling.stl) X 1
 - [Distal link](stl/distal_link.STL) X 2
 - [Distal tip link](stl/distal_tip_link.STL) X 2
 - [Finger tip](stl/finger_tip.STL) X 2
-- [Gripper shell](stl/gripper_shell.STL) X 1
+- [Gripper shell](stl/gripper_shell.stl) X 1
 - [Magnet holder](stl/magnet_holder.STL) X 4
-- [Motor plate](stl/motor_plate.STL) X 4
+- [Motor plate](stl/motor_plate.stl) X 4
 - [Proximal link](stl/proximal_link.STL) X 4
 - The gripper is designed to be compatible with Rainbow robotics RB5. For other robot systems, it should be better to design your own adapter plate and coupling.
 -----
