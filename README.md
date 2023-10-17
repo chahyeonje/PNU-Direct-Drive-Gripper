@@ -9,8 +9,8 @@
 ## 2. Hardeware
 ### Bill of materials(BOM) ###
 #### Off-the-shelf parts
-- [t-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
-- motor driver : odrive s1 (https://odriverobotics.com/shop/odrive-s1)
+- [T-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
+- [Odrive s1](https://odriverobotics.com/shop/odrive-s1)
 - AS5048A Encoder + Diametrical magnet
 - Bearing - outer-diameter = 100mm, inner-diamter = 6mm X 12
 - Dowel pin - diameter = 6mm, length = 10mm X 6
@@ -18,18 +18,18 @@
 - 3-phase cable
 
 #### 3D Printing ####
-- [adapter palte](adapter_plate) X 4
-- [bearing spacer](bearing_spacer) X 12
-- [calibration arm](calibration_arm) X 1
-- [calibration stand](calibration_stand) X 1
-- [coupler](coupler) X 1
-- [couping](coupling) X 1
-- [distal link](distal_link) X 2
-- [distal tip link](distal_tip_link) X 2
-- [finger tip](finger_tip) X 2
-- [gripper shell](gripper_shell) X 1
-- [magnet holder](stl/magnet_holder) X 4
-- [motor plate](stl/motor_plate) X 4
+- [adapter palte](adapter_plate.STL) X 4
+- [bearing spacer](bearing_spacer.STL) X 12
+- [calibration arm](calibration_arm.STL) X 1
+- [calibration stand](calibration_stand.STL) X 1
+- [coupler](coupler.STL) X 1
+- [couping](coupling.STL) X 1
+- [distal link](distal_link.STL) X 2
+- [distal tip link](distal_tip_link.STL) X 2
+- [finger tip](finger_tip.STL) X 2
+- [gripper shell](gripper_shell.STL) X 1
+- [magnet holder](stl/magnet_holder.STL) X 4
+- [motor plate](stl/motor_plate.STL) X 4
 - [proximal link](stl/proximal_link.STL) X 4
 -----
 ## 3. Software
