@@ -29,7 +29,7 @@
 - gripper shell X 1
 - magnet holder X 4
 - motor plate X 4
-- proximal link X 4
+- [proximal link](stl/proximal_link) X 4
 -----
 ## 3. Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
