@@ -2,7 +2,7 @@
 ## 1. Overview
 
 ## 2. Hardeware
-### Bill of materials(BOM) ###
+### Bill of materials(BOM)
 #### Off-the-shelf parts
 - [T-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
 - [Odrive s1](https://odriverobotics.com/shop/odrive-s1) X 4
@@ -12,7 +12,7 @@
 - Shielded cable
 - 3-phase cable
 
-#### 3D Printing ####
+#### 3D Printing
 - [Adapter plate](stl/adapter_plate.stl/) X 4
 - [Bearing spacer](stl/bearing_spacer.STL) X 12
 - [Calibration arm](stl/calibration_arm.STL) X 1
@@ -27,6 +27,12 @@
 - [Motor plate](stl/motor_plate.stl) X 4
 - [Proximal link](stl/proximal_link.STL) X 4
 <br/><br/>The gripper is designed to be compatible with Rainbow robotics RB5. For other robot systems, it should be better to design your own adapter plate and coupling.
+
+### Actuators
+![motor-plate](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/a4e6c59b-204b-4a37-ac26-49d9a014946f)
+![motor_with_magnet](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/5e040175-c788-4f34-a4fc-10a2507375e3)
+![actuator-module](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/dbabca10-f5ba-419c-b25c-ede33a81a072)
+
 -----
 ## 3. Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
