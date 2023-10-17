@@ -7,8 +7,29 @@
 ## 1. Overview
 
 ## 2. Hardeware
+### Bill of materials(BOM) ###
 - motor : t-motor gb54-2 (https://store.tmotor.com/goods-445-GB54-2.html)
 - motor driver : odrive s1 (https://odriverobotics.com/shop/odrive-s1)
+- AS5048A Encoder + Diametrical magnet
+- Bearing - outer-diameter = 100mm, inner-diamter = 6mm X 12
+- Dowel pin - diameter = 6mm, length = 10mm X 6
+- shielded cable
+- 3-phase cable
+
+### 3D Printing ###
+- adapter palte X 4
+- bearing spacer X 12
+- calibration arm X 1
+- calibration stand X 1
+- coupler X 1
+- couping X 1
+- distal link X 2
+- distal tip link X 2
+- finger tip X 2
+- gripper shell X 1
+- magnet holder X 4
+- motor plate X 4
+- proximal link X 4
 -----
 ## 3. Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
