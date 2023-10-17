@@ -10,9 +10,9 @@
 ### Bill of materials(BOM) ###
 #### Off-the-shelf parts
 - [T-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
-- [Odrive s1](https://odriverobotics.com/shop/odrive-s1)
-- AS5048A Encoder + Diametrical magnet
-- Bearing - outer-diameter = 100mm, inner-diamter = 6mm X 12
+- [Odrive s1](https://odriverobotics.com/shop/odrive-s1) X 4
+- [AS5048A Encoder + solid magnet](https://ko.aliexpress.com/item/1005004239532357.html?spm=a2g0o.ppclist.product.16.189a33gr33grC1&pdp_npi=2%40dis%21KRW%21%E2%82%A9%2020%2C299%21%E2%82%A9%2020%2C299%21%21%21%21%21%402103011616813606980156478ed18f%2112000028490990365%21btf&_t=pvid%3A1729ba70-2e9e-4e62-ae44-2781def9d2bc&afTraceInfo=1005004239532357__pc__pcBridgePPC__xxxxxx__1681360698&gatewayAdapt=glo2kor) X 4
+- [Bearing - outer-diameter = 100mm, inner-diamter = 6mm](https://kr.misumi-ec.com/vona2/detail/221000058378/?KWSearch=%eb%b2%a0%ec%96%b4%eb%a7%81&searchFlow=results2products) X 12
 - Dowel pin - diameter = 6mm, length = 10mm X 6
 - shielded cable
 - 3-phase cable
