@@ -1,4 +1,4 @@
-![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/d16cab96-d861-4622-9ae0-e37d75e7400e)![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/85f1e32f-c669-4d0a-997c-dd88ade67236)# PNU-Direct-Drive-Gripper
+
 ## 1. Overview
 
 ## 2. Hardeware
