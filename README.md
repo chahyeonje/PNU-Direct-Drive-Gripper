@@ -35,6 +35,7 @@
 ![actuator-module](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/dbabca10-f5ba-419c-b25c-ede33a81a072)
 #### Wiring
  ![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b1eb570b-db69-46bb-b7c8-4a5f420e400a)
+![wiring-power](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/cc4497c2-2612-4712-aa77-713b2b987c32)
 
 -----
 ## 3. Software
