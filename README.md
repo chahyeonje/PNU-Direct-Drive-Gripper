@@ -39,9 +39,6 @@
 The components should be connected following the diagram below. The encoder connection(black) and power connection(green) will be further elaborated.
  ![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b1eb570b-db69-46bb-b7c8-4a5f420e400a)
 
- - motor wiring
-![wiring-power](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/cc4497c2-2612-4712-aa77-713b2b987c32)
-
 ##### Encoder connection
 For the encoder connection, we fabricate a cable assembly as shown below in the schematic. It is recommended to verify the connectivity and resistance of each connection to make sure the cables are soldered properly. We also recommend to label each connector like the schematic.
 
@@ -50,9 +47,11 @@ For the encoder connection, we fabricate a cable assembly as shown below in the 
 
 After successful fabrication, connect the motor encoders and the ODrives.
 
+##### Motor connection
+Keep the 3-phase connection consistent as shown below.
+![wiring-power](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/cc4497c2-2612-4712-aa77-713b2b987c32)
+![motor_odrive](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/5b9be068-62de-4bdd-acf4-04fbe91c0a88)
 
-- motor + encoder + odrive
-![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/26d72e4e-8b0d-4ca0-9941-5f7bdd5a7f80)
 
 - odrive s1 pin map.
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f)
