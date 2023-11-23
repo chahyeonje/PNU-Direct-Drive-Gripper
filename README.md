@@ -37,11 +37,14 @@
 ![actuator-module](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/dbabca10-f5ba-419c-b25c-ede33a81a072)
 #### Wiring
  ![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b1eb570b-db69-46bb-b7c8-4a5f420e400a)
- ![AS5048A](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/62fb1e29-734c-4848-a7fd-48a39699b29d)
+ 
 ![wiring-power](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/cc4497c2-2612-4712-aa77-713b2b987c32)
+
+![AS5048A](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/62fb1e29-734c-4848-a7fd-48a39699b29d){: width="50" height="50"}
+
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/26d72e4e-8b0d-4ca0-9941-5f7bdd5a7f80)
-![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f)
-![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130)
+![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f){: width="50" height="50"}
+![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130){: width="50" height="50"}
 
 
 -----
