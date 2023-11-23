@@ -45,7 +45,7 @@
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/26d72e4e-8b0d-4ca0-9941-5f7bdd5a7f80)
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f){: width="50" height="50"}
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130){: width="50" height="50"}
-<img src="https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130  width="50" height="50"/>
+<img src="https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130.JPG  width="50px" height="50px">
 
 
 -----
