@@ -46,7 +46,7 @@ The components should be connected following the diagram below. The encoder conn
 For the encoder connection, we fabricate a cable assembly as shown below in the schematic. It is recommended to verify the connectivity and resistance of each connection to make sure the cables are soldered properly. We also recommend to label each connector like the schematic.
 
 ![encoder_wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/379d7f4a-ed02-4407-8f19-85ee1a7e021b)
-![as5048a_small](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/55cb8f5e-c794-44ca-9cfb-33d598114768)
+![encoder_odrive](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/68662a25-3307-4d92-96bc-fc9e12af4846)
 
 After successful fabrication, connect the motor encoders and the ODrives.
 
