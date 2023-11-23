@@ -63,6 +63,130 @@ Keep the 3-phase connection consistent as shown below.
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f)
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130)
 
+## Actuator Calibration
+
+Each actuator module require calibration before use. This step __can not__ be done after the gripper is assembled, so do not postpone this step.
+
+We explicitly define the `direction of the rotor` to be the direction the hexagonal logo on the rotor is pointing at, and the `zero position of the motor` to be when the direction of the motor is pointing at the opposite direction of the power port on the stator. 
+
+![motor-zero](images/motor_frame.png)
+
+
+### Calibrate ODrives
+
+Execute the following command and follow its instructions in the terminal.
+
+```shell
+python3 -m ddh_driver.calib_odrive
+```
+
+### Calibrate Zero Position
+
+Here we calibrate the zero position of the motor. Mount the actuator on the calibration stand and install the calibration arm onto the actuator according to the diagram
+
+![calibration-stand](images/motor-calib-stand.png)
+
+Execute the following command to show real-time reading from the encoders.
+```shell
+python3 -m ddh_driver.check_encoder
+```
+
+Put the motor into zero position as show in the diagram below. Press down the calibration arm to make sure the stand and arm touch tightly. 
+
+![zero-stop](images/calib-zero.png)
+
+Record the encoder reading in configuration in `ddh_driver/config/default.yaml`. Perform this calibration for each actuator and record it in their respective keys in the configuration file.
+```yaml
+motors:
+  R0: # and R1, L0, L1:
+    offset: the encoder reading at zero stop
+```
+
+After modifying the configuration file, execute the following command will show the real-time reading of the motor angular position in degrees.
+```shell
+python3 -m ddh_driver.check_motor_pos
+```
+It should be zero when motor is in [zero position](#zero-position-of-the-motor). Also try 90° and 180°. Don't mind the sign at this stage of assembly.
+
+
+
+# Gripper
+
+<a name="finger"></a>
+
+## Finger Assembly ⨉ 2
+
+![linkage_joint](images/linkage_joint.png)
+
+![finger](images/finger.png)
+
+
+## Gripper Assembly
+
+![gripper_shell](images/gripper_shell.png)
+
+![gripper](images/gripper.png)
+
+<a name="mounting-ur10"></a>
+
+## Mounting
+
+![mounting](images/mounting.png)
+
+![gripper_mounted](images/gripper_mounted.png)
+
+
+
+## Validation
+
+The gripper assembly is complete. Please perform the following validation steps to make sure the linkages and actuators are installed correctly.
+
+First check the association between proximal links and actuators. They should follow the diagram below __exactly__. If there is a mismatch, please go back to the assembly steps and correct the mistakes.
+
+![linkage_ids](images/linkage_ids.png)
+
+Then check the angular position of the four proximal links. This value will be referred to as θ, with subscript indicating which link.  Execute the following command to print real-time reading of θ
+```shell
+python3 -m ddh_driver.check_theta
+```
+It should be the angle between the link and the x-axis, in counter-clockwise direction. For example, the following figure shows the angle of R0 link at -40°, 0°,  and 90°.
+![various-angles](images/various_angles.png)
+If everything checked out at this point, you have successfully built and calibrated the direct-drive gripper.
+
+
+
+# Customization
+
+If the default setup does not satisfy your requirements, it can be further customized.
+
+<a name="custom-mounting"></a>
+
+## Mounting
+
+If the default mounting does not work for you, it's very easy to make a custom mount. The gripper has a __60 mm PCD with 4 ⨉ M4__ mounting interface, as shown in the drawing below.
+
+![base_mount](images/base_mount.png)
+
+## Geometry
+
+![geometry](images/gripper_spec.png)
+
+The geometrical parameters can be customized. After you design your custom parts, update the `ddh_driver/config/default.yaml` so the driver can work properly. 
+
+| Parameter | Configuration Path | Unit |
+|----|------|-----|
+| ℓ₁ | `/geometry/l1` | mm |
+| ℓ₂ | `/geometry/l2` | mm |
+| ℓ₃ | `/geometry/l3` | mm |
+| 𝝱 | `/geometry/beta` | degree |
+| 𝛄 | `/geometry/gamma` | degree |
+
+## Fingertip
+
+The fingertip is designed to be swappable. It is attached to the distal link, shown in the schematic below. The default fingertip has a sharp tip for scooping thin objects. Customize the fingertip for your specific scenario. Beware that ℓ₃ and 𝝱 change with the fingertip geometry, make sure to update them in the configuration file.
+
+![fingertip](images/fingertip.png)
+
 
 -----
 ## 3. Software
