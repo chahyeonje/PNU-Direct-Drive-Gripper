@@ -1,8 +1,40 @@
 
-# 1. Overview
+# Overview
 -----
-# 2. Hardeware
+# Table of Contents
+
+- [Preparation](#preparation)
+  - [Bill of Materials (BOM)](#bom)
+    - [Off-the-Shelf Parts](#purchase)
+    - [3D Printing](#3d-printing)
+  - [Install `ddh_driver`](#install-ddh-driver)
+  - [Labeling Parts](#labeling-parts)
+- [Actuators](#actuators)
+  - [Actuator Assembly ⨉4](#assemble-actuators)
+  - [Wiring](#wiring)
+    - [Power Supply](#power-supply)
+    - [Encoder Connection](#encoder-connection)
+    - [Power Connection](#power-connection)
+  - [Actuator Calibration](#actuator-calibration)
+    - [Calibrate ODrives](#calibrate-odrives)
+    - [Calibrate Zero Position](#calibrate-zero-position)
+- [Gripper](#Gripper)
+  - [Finger Assembly ⨉2](#finger)
+  - [Gripper Assembly](#gripper-assembly)
+  - [Mounting](#mounting-ur10)
+  - [Validation](#validation)
+- [Customization](#customization)
+  - [Mounting](#custom-mounting)
+  - [Geometry](#geometry)
+  - [Fingertip](#fingertip)
+- [Getting Started](#getting-started)
+  
+-----
+
+# Hardeware
+<a name="bom"></a>
 ## Bill of materials(BOM)
+<a name="purchase"></a>
 ### Off-the-shelf parts
 - [T-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
 - [Odrive s1](https://odriverobotics.com/shop/odrive-s1) X 4
@@ -189,7 +221,7 @@ The fingertip is designed to be swappable. It is attached to the distal link, sh
 
 
 -----
-## 3. Software
+# Software
 Our software is implemented with **python3** and tested on **Ubuntu**. You can also refer to this website https://docs.odriverobotics.com/v/latest/guides/getting-started.html.
 
 ### Versions ###
@@ -222,7 +254,7 @@ Out [1]: 23.931137084960938
 ```
 -----
 
-## Contributors
+# Contributors
 - Hyeonje Cha, guswp3611@gmail.com
 - Jaehoon An, dkswogns46@gmail.com
 - Shady
