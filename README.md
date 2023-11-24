@@ -1,9 +1,9 @@
 
-## 1. Overview
+# 1. Overview
 
-## 2. Hardeware
-### Bill of materials(BOM)
-#### Off-the-shelf parts
+# 2. Hardeware
+## Bill of materials(BOM)
+### Off-the-shelf parts
 - [T-motor gb54-2](https://store.tmotor.com/goods-445-GB54-2.html) X 4
 - [Odrive s1](https://odriverobotics.com/shop/odrive-s1) X 4
 - [AS5048A Encoder + solid magnet](https://ko.aliexpress.com/item/1005004239532357.html?spm=a2g0o.ppclist.product.16.189a33gr33grC1&pdp_npi=2%40dis%21KRW%21%E2%82%A9%2020%2C299%21%E2%82%A9%2020%2C299%21%21%21%21%21%402103011616813606980156478ed18f%2112000028490990365%21btf&_t=pvid%3A1729ba70-2e9e-4e62-ae44-2781def9d2bc&afTraceInfo=1005004239532357__pc__pcBridgePPC__xxxxxx__1681360698&gatewayAdapt=glo2kor) X 4
@@ -14,7 +14,7 @@
 - 3-phase cable
 
 
-#### 3D Printing
+### 3D Printing
 - [Adapter plate](stl/adapter_plate.stl/) X 4
 - [Bearing spacer](stl/bearing_spacer.STL) X 12
 - [Calibration arm](stl/calibration_arm.STL) X 1
@@ -30,22 +30,22 @@
 - [Proximal link](stl/proximal_link.STL) X 4
 <br/><br/>The gripper is designed to be compatible with Rainbow robotics RB5. For other robot systems, it should be better to design your own adapter plate and coupling.
 
-### Actuators
-#### Acutator assembly
+## Actuators
+### Acutator assembly
 ![motor_with_magnet](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/5e040175-c788-4f34-a4fc-10a2507375e3)
 ![motor-plate](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/a4e6c59b-204b-4a37-ac26-49d9a014946f)
 ![actuator-module](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/dbabca10-f5ba-419c-b25c-ede33a81a072)
 
-#### Wiring
+### Wiring
 The components should be connected following the diagram below. The encoder connection(black) and power connection(green) will be further elaborated.
  ![wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b1eb570b-db69-46bb-b7c8-4a5f420e400a)
 
-##### Power Supply
+#### Power Supply
 First connect the DC power supply to the wall plug. Then connect it to the four ODrive boards, positive to positive, negetaive to negative. There is no on/off button on the boards, plug in the wall plug to turn the system on, unplug to turn it off.
 ![power_supply](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/bc16c051-c266-4a65-9b8f-379e4e375e19)
 
 
-##### Encoder Connection
+#### Encoder Connection
 For the encoder connection, we fabricate a cable assembly as shown below in the schematic. It is recommended to verify the connectivity and resistance of each connection to make sure the cables are soldered properly. We also recommend to label each connector like the schematic.
 
 ![encoder_wiring](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/379d7f4a-ed02-4407-8f19-85ee1a7e021b)
@@ -53,17 +53,17 @@ For the encoder connection, we fabricate a cable assembly as shown below in the 
 
 After successful fabrication, connect the motor encoders and the ODrives.
 
-##### Motor Connection
+#### Motor Connection
 Keep the 3-phase connection consistent as shown below.
 ![wiring-power](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/cc4497c2-2612-4712-aa77-713b2b987c32)
 ![motor_odrive](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/5b9be068-62de-4bdd-acf4-04fbe91c0a88)
 
 
-##### Odirve S1 Pin map.
+#### Odirve S1 Pin map.
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/b941a3e3-5e0a-4b66-b857-39943b02f62f)
 ![image](https://github.com/chahyeonje/PNU-Direct-Drive-Gripper/assets/39438067/3fbde08a-4801-47a4-b45f-78a1bda7b130)
 
-## Actuator Calibration
+# Actuator Calibration
 
 Each actuator module require calibration before use. This step __can not__ be done after the gripper is assembled, so do not postpone this step.
 
@@ -72,7 +72,7 @@ We explicitly define the `direction of the rotor` to be the direction the hexago
 ![motor-zero](images/motor_frame.png)
 
 
-### Calibrate ODrives
+## Calibrate ODrives
 
 Execute the following command and follow its instructions in the terminal.
 
@@ -80,7 +80,7 @@ Execute the following command and follow its instructions in the terminal.
 python3 -m ddh_driver.calib_odrive
 ```
 
-### Calibrate Zero Position
+## Calibrate Zero Position
 
 Here we calibrate the zero position of the motor. Mount the actuator on the calibration stand and install the calibration arm onto the actuator according to the diagram
 
