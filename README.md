@@ -7,8 +7,6 @@
   - [Bill of Materials (BOM)](#bom)
     - [Off-the-Shelf Parts](#purchase)
     - [3D Printing](#3d-printing)
-  - [Install `ddh_driver`](#install-ddh-driver)
-  - [Labeling Parts](#labeling-parts)
 - [Actuators](#actuators)
   - [Actuator Assembly ⨉4](#assemble-actuators)
   - [Wiring](#wiring)
