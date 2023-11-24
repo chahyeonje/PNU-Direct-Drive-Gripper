@@ -14,7 +14,7 @@
   - [Wiring](#wiring)
     - [Power Supply](#power-supply)
     - [Encoder Connection](#encoder-connection)
-    - [Power Connection](#power-connection)
+    - [Motor Connection](#Motor-connection)
   - [Actuator Calibration](#actuator-calibration)
     - [Calibrate ODrives](#calibrate-odrives)
     - [Calibrate Zero Position](#calibrate-zero-position)
