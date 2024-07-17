@@ -104,11 +104,7 @@ We explicitly define the `direction of the rotor` to be the direction the hexago
 
 ## Calibrate ODrives
 
-Execute the following command and follow its instructions in the terminal.
 
-```shell
-python3 -m ddh_driver.calib_odrive
-```
 
 ## Calibrate Zero Position
 
@@ -116,28 +112,13 @@ Here we calibrate the zero position of the motor. Mount the actuator on the cali
 
 ![calibration-stand](images/motor-calib-stand.png)
 
-Execute the following command to show real-time reading from the encoders.
-```shell
-python3 -m ddh_driver.check_encoder
-```
 
 Put the motor into zero position as show in the diagram below. Press down the calibration arm to make sure the stand and arm touch tightly. 
 
 ![zero-stop](images/calib-zero.png)
 
-Record the encoder reading in configuration in `ddh_driver/config/default.yaml`. Perform this calibration for each actuator and record it in their respective keys in the configuration file.
-```yaml
-motors:
-  R0: # and R1, L0, L1:
-    offset: the encoder reading at zero stop
-```
 
-After modifying the configuration file, execute the following command will show the real-time reading of the motor angular position in degrees.
-```shell
-python3 -m ddh_driver.check_motor_pos
-```
 It should be zero when motor is in [zero position](#zero-position-of-the-motor). Also try 90° and 180°. Don't mind the sign at this stage of assembly.
-
 
 
 # Gripper
@@ -168,21 +149,6 @@ It should be zero when motor is in [zero position](#zero-position-of-the-motor).
 
 
 ## Validation
-
-The gripper assembly is complete. Please perform the following validation steps to make sure the linkages and actuators are installed correctly.
-
-First check the association between proximal links and actuators. They should follow the diagram below __exactly__. If there is a mismatch, please go back to the assembly steps and correct the mistakes.
-
-![linkage_ids](images/linkage_ids.png)
-
-Then check the angular position of the four proximal links. This value will be referred to as θ, with subscript indicating which link.  Execute the following command to print real-time reading of θ
-```shell
-python3 -m ddh_driver.check_theta
-```
-It should be the angle between the link and the x-axis, in counter-clockwise direction. For example, the following figure shows the angle of R0 link at -40°, 0°,  and 90°.
-![various-angles](images/various_angles.png)
-If everything checked out at this point, you have successfully built and calibrated the direct-drive gripper.
-
 
 
 # Customization
