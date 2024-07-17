@@ -187,7 +187,7 @@ Our software is implemented with **python3** and tested on **Ubuntu**. You can a
 
 ### Versions ###
 - ubuntu : 20.04
-- Python : 3.10.11 (pyenv) (If it's python3, you should be able to use other versions.)
+- Python : 3.10.11
 - Odrive control untility : 0.6.7
 
 ### Getting started ###
