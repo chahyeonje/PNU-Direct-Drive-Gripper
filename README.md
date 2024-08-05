@@ -1,9 +1,8 @@
 
 # Overview
-<p align = "center">
-<img src="media/gripper_function.gif" width="400"> 
-</p>
+
 -----
+
 # Table of Contents
 
 - [Preparation](#preparation)
